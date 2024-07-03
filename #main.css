@@ -1,0 +1,81 @@
+*
+{ padding:0px;  
+    margin:0px;}
+        header{
+           
+            background-image: url("image.jpg");
+            height:100vh;
+            background-repeat:no-repeat;
+            background-size:cover;
+            background-position:center;
+        }
+        .main{
+            max-width: 1100px;
+            margin:auto;
+        }
+        ul{
+            list-style-type:none;
+            float:right;
+            margin-top:25px;
+        }
+        ul li{
+            display:inline-block;
+            border:1px solid trasparent;
+
+        }
+        ul li a{
+            color:rgb(153, 10, 10);
+            text-decoration:none;
+            display:block;
+            padding:5px;
+        }
+        ul li a:hover{
+            background-color:white;
+            color:black;
+            transition:0.6s ease;
+        }
+        .active{
+            background-color:white;
+            color:black;
+        }
+
+        .logo img{
+            margin-top:25px;    }
+            
+        .center_text{
+                
+                 margin-left: 300px;
+                margin-right: 200px;
+                
+            }
+            h1{
+                color:black;
+            }
+            #bt1{
+                border:1px solid rgb(235, 11, 209);
+                color:blue;
+                padding:5px;
+                text-decoration:none;
+            }
+            #bt2{
+                border:1px solid rgb(235, 11, 209);
+                color:rgb(11, 11, 232);
+                padding:5px;
+                text-decoration:none;
+            }
+            #bt1:hover{
+                background-color:white;
+                color:black;
+                transition:0.6s ease;
+            
+            }
+            #bt2:hover{
+                background-color:white;
+                color:black;
+                transition:0.6s ease;
+            }
+            .paragraph{
+                margin-right: 1000px;
+                color:rgb(7, 33, 203);
+               
+            }
